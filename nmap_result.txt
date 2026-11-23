@@ -1,0 +1,26 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-11-22 23:47 -0500
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.064s latency).
+Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
+Not shown: 82 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+26/tcp    filtered rsftp
+37/tcp    filtered time
+80/tcp    open     http
+179/tcp   filtered bgp
+389/tcp   filtered ldap
+465/tcp   filtered smtps
+514/tcp   filtered shell
+1110/tcp  filtered nfsd-status
+1755/tcp  filtered wms
+2000/tcp  filtered cisco-sccp
+2121/tcp  filtered ccproxy-ftp
+3000/tcp  filtered ppp
+5631/tcp  filtered pcanywheredata
+5800/tcp  filtered vnc-http
+7070/tcp  filtered realserver
+32768/tcp filtered filenet-tms
+
+Nmap done: 1 IP address (1 host up) scanned in 6.73 seconds
